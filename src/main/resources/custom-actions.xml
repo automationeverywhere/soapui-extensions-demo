@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-actions xmlns:tns="http://eviware.com/soapui/config">
+
+    <!-- defined action -->
+    <tns:action id="OpenEditorAction" actionClass="soapui.extensions.OpenEditorAction"/>
+
+    <!-- add action to project popup -->
+    <tns:actionGroup id="EnabledWsdlProjectActions">
+        <tns:actionMapping actionId="OpenEditorAction"/>
+    </tns:actionGroup>
+    <tns:actionGroup id="WsdlTestSuiteActions">
+        <tns:actionMapping actionId="OpenEditorAction"/>
+    </tns:actionGroup>
+    <tns:actionGroup id="WsdlTestCaseActions">
+        <tns:actionMapping actionId="OpenEditorAction"/>
+    </tns:actionGroup>
+    <tns:actionGroup id="WsdlTestStepActions">
+        <tns:actionMapping actionId="OpenEditorAction"/>
+    </tns:actionGroup>
+</tns:soapui-actions>
