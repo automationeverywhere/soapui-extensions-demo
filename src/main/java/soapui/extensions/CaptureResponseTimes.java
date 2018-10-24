@@ -8,7 +8,6 @@ import com.eviware.soapui.model.testsuite.TestCaseRunner;
 public class CaptureResponseTimes extends TestRunListenerAdapter {
     public void afterRun( TestCaseRunner testRunner, TestCaseRunContext runContext )
     {
-        long endTime = System.nanoTime();
         SoapUI.log("Status : "+testRunner.getStatus());
     }
 }
